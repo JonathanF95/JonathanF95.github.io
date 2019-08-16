@@ -5,6 +5,11 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+.container{
+  width: 60%;
+  display: table-cell;
+  vertical-align: middle;
+}
 /* Navbar Styles */
 nav{
   background-color: #f1f1f1;
