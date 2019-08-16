@@ -2,30 +2,118 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jonathan Fuentes Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome.min.css">
   </head>
   <body>
     <header>
-      <nav>
-        <div id="nav-title">
-          <h1>My Portfolio</h1>
+      <div class="container">
+        <div class="flex">
+          <h1><a href="#top"><span>My</span> Portfolio</a></h1>
+          <nav>
+            <ul>
+                <li><a href="#now">Top</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#form-content">Contact</a></li>
+            </ul>
+          <nav>
         </div>
-        <div id="nav-menu">
-          <ul>
-            <li a href="showroom">Top</li>
-            <li id="about">About</li>
-            <li id="projects">Projects</li>
-            <li id ="contact">Contact</li>
-          </ul>
-        </div>
-      </nav>
+      </div>
     </header>
     <section id="showcase">
       <div class="container">
-        <h1>Front-End Developer</h1>
-        <p>Specilizes in UI and UX development, and SEO optimization.</p>
+        <div class="flex container-2 top">
+          <h3>Jonathan Fuentes</h3>
+          <p>I am a web developer with specialty in front-end development, functionality, UX design, and Search Engine Optimization.</p>
+        </div>
       </div>
     </section>
+    <section id="about">
+      <div class="container">
+        <h3 id="now">About</h3>
+        <div class="flex">
+          <article>
+            <p>My name is Jonathan Fuentes. I've been coding since June of 2018. Every since I've started I've dedicated countless hours to mastering my craft. I never stop learning. Some of the sources I've used to retain my knowledge of coding include but are not limited to: <a href="codeacedmy.com">CodeAcedmy</a>, <a href="teamtreehouse.com">TeamTreeHouse</a>, <a href="freecodecamp.com">FreeCodeCamp</a>, <a href="udemy.com">Udemy</a>, and YouTube.</p>
+            <p>Currently I am learning React as well as how to make AJAX request.</p>
+          </article>
+          <aside id="side-skills" class="dark">
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+              <li>GIT/GITHUB</li>
+            </ul>
+          </aside>
+      </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="flex" id="boxes1-3">
+          <div id="box-1">
+            <h3>Responsive Website</h3>
+            <a href="#"><img src="img/project-1.jpg" alt=""></a>
+            <p>This is a responsive website I created using a video code along. It helped me learn how to make website responsive.</p>
+          </div>
+          <div id="box-2">
+            <h3>Color Guessing Game</h3>
+            <a href="#"><img src="img/project-2.jpg" alt=""></a>
+            <p>This is a RGB color guessing game. It was coded using JavaScript.</p>
+          </div>
+          <div id="box-3">
+            <h3>Fully Functional Church Website</h3>
+            <a href="google.com"><img src="img/project-3.jpg" alt=""></a>
+            <p>This is my very first website I created on my own after learning all I have. Everything about this project is 100% original. It's a website I created for my church.</p>
+          </div>
+        </div>
+        <div class="flex" id="boxes4-6">
+          <div id="box-4">
+            <h3>Responsive Website</h3>
+            <a href="#"><img src="img/project-1.jpg" alt=""></a>
+            <p>This is a responsive website I created using a video code along. It helped me learn how to make website responsive.</p>
+          </div>
+          <div id="box-5">
+            <h3>Color Guessing Game</h3>
+            <a href="#"><img src="img/project-2.jpg" alt=""></a>
+            <p>This is a RGB color guessing game. It was coded using JavaScript.</p>
+          </div>
+          <div id="box-6">
+            <h3>Fully Functional Church Website</h3>
+            <a href="google.com"><img src="img/project-3.jpg" alt=""></a>
+            <p>This is my very first website I created on my own after learning all I have. Everything about this project is 100% original. It's a website I created for my church.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="form-content">
+      <div class="container">
+        <h3>Contact Me</h3>
+        <form>
+          <label for="fullName" class="label">Full Name:</label>
+            <input type="text" id="fullName" class="input" method="GET" name="userName" placeholder="Enter Full Name..."><br />
+          <label for="email" class="label">Email:</label>
+            <input type="email" id="email" class="input" method="GET" name="userEmail" placeholder="Enter Email..."><br />
+          <label for="reason"class="">Reason For Contacting:</label><br />
+            <textarea type="text" id="reason" class="input" rows="5" cols="35" placeholder="Comments..."></textarea>
+          <button id="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>&copy;Designed and Developed by Jonathan Fuentes.</p>
+        <div id="socials">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
