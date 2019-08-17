@@ -1,4 +1,5 @@
-/* Global Styles */
+@import url("https://fonts.googleapis.com/css?family=Roboto|Lato");
+/* Global Styles ----------------*/
 *{
   padding: 0;
   margin: 0;
@@ -8,7 +9,7 @@
   font-family: sans-serif;
 }
 body{
-  font-family: sans-serif;
+  font-family: 'Roboto',sans-serif;
   background-color: #f7f7f7;
 }
 .container{
@@ -21,7 +22,7 @@ body{
   align-items: center;
   justify-content: space-between;
 }
-/* Navbar Styles */
+/* Navbar Styles---------------- */
 nav{
   background-color: #f1f1f1;
   display: flex;
@@ -59,7 +60,7 @@ nav ul li:hover{
   flex-direction: column;
   text-align: center;
   height: 100vh;
-  background-image: linear-gradient(transparent 60%, #fff),
+  background-image: linear-gradient(transparent 60%, #f7f7f7),
                     url("http://res.cloudinary.com/doo35hkx4/image/upload/v1535002253/laptop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
