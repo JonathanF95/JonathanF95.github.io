@@ -23,7 +23,7 @@ body{
 }
 /* Navbar Styles----------------- */
 nav{
-  background-color: #f1f1f1;
+  background-color: gray;
   display: flex;
 }
 
