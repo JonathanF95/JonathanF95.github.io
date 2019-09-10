@@ -21,7 +21,7 @@ body{
   align-items: center;
   justify-content: space-between;
 }
-/* Navbar Styles----------------- */
+/* Navbar Styles------------------ */
 nav{
   background-color: gray;
   display: flex;
