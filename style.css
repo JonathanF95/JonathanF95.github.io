@@ -6,7 +6,7 @@
   text-decoration: none;
   box-sizing: border-box;
   list-style-type: none;
-  font-family:'Roboto',sans-serif;
+  font-family:sans-serif;
 }
 body{
   background-color: #f7f7f7;
@@ -23,33 +23,36 @@ body{
 }
 /* Navbar Styles----------------s-- */
 nav{
-  background-color: gray;
+  background-color: #c0c0c0;
   display: flex;
 }
 
 nav ul li:hover{
-  color: white;
+  font-weight: 700;
 }
 #nav-title{
-  font-size: 1.5em;
-  width: 40%;
-  padding: .5em 1em;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-left: 2em;
+}
+#nav-title h1{
+  border-right: 2px solid black;
+  padding-right: .5em;
 }
 #nav-menu{
   font-size: 1.5em;
   width:60%;
+  display: flex;
+  align-items: center;
+  font-weight: 100;
 }
 #nav-menu ul{
   display: flex;
-  justify-content: space-around;
-  height: 2em;
-  margin:auto;
 }
 #nav-menu ul li{
-  padding: .625em .625em;
   cursor: pointer;
-  border-left: 1px solid black;
-  font-size: 1em;
+  padding: 0 1em;
 }
 
 /*Showcase----------------*/
@@ -103,4 +106,11 @@ nav ul li:hover{
 #about aside{
   font-size: 1.25em;
   width: 30%;
+  background: #C0C0C0;
+  border-radius: .375em;
+  padding: 1em 0 2em 0;
+}
+
+#about h2{
+  padding-bottom: .5em;
 }
