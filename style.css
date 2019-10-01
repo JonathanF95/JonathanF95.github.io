@@ -23,8 +23,9 @@ body{
 }
 /* Navbar Styles----------------s-- */
 nav{
-  background-color: #c0c0c0;
+  background-color: #E5E4E2;
   display: flex;
+  border-bottom: 3px solid black;
 }
 
 nav ul li:hover{
